@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  application:
+    name: authenticate-service
+server:
+  port: 8084
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8083/eureka

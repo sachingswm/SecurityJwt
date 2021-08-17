@@ -50,11 +50,11 @@ public class Controller {
         }
     }
 
-
-    @GetMapping("/hello")
-    public String firstPage()
-    {
-        return "Hello World!";
-    }
+//
+//    @GetMapping("/hello")
+//    public String firstPage()
+//    {
+//        return "Hello World!";
+//    }
 
 }
